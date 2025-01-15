@@ -1,0 +1,21 @@
+# AWS Configuration
+aws:
+  region: us-east-1
+  profile: default
+
+# Resource Settings
+resources:
+  ec2:
+    default_instance_type: t2.micro
+    max_instances: 10
+  s3:
+    default_encryption: AES256
+    versioning: enabled
+  rds:
+    backup_retention_days: 7
+    multi_az: false
+
+# Logging Configuration
+logging:
+  level: INFO
+  file: aws_automator.log
