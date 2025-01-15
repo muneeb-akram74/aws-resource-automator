@@ -65,6 +65,4 @@ MIT License - see LICENSE file for details.
 
 ## Author
 
-Muneeb Akram# aws-resource-automator
-# aws-resource-automator
-# aws-resource-automator
+**Muneeb Akram**
